@@ -16,7 +16,9 @@ Use of common objects maintains the code standard by reducing errors. It improve
 
 Aded values for the following enums;
 > . ErrorTypeEnum
+>
 > . LogPriorityEnum
+>
 > . LogTypeEnum
 
 Added values for the following interfaces;
