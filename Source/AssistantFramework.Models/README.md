@@ -14,7 +14,7 @@ Use of common objects maintains the code standard by reducing errors. It improve
 
 ## Getting Started
 
-Aded values for the following enums;
+Added values for the following enums;
 > . ErrorTypeEnum
 >
 > . LogPriorityEnum
