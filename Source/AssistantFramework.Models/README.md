@@ -1,5 +1,7 @@
 # Assistant Framework Models
 
+[![NuGet](https://img.shields.io/nuget/v/AssistantFramework.Models)](https://www.nuget.org/packages/AssistantFramework.Models/)
+
 ## Description
 
 This project includes objects such as enum, model, interface, option, dto that can be used frequently for your applications.
