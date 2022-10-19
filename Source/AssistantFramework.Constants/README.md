@@ -1,4 +1,6 @@
-# AssistantFramework Constants
+# Assistant Framework Constants
+
+[![NuGet](https://img.shields.io/nuget/v/AssistantFramework.Constants)](https://www.nuget.org/packages/AssistantFramework.Constants/)
 
 ## Description
 

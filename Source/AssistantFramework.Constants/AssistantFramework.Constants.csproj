@@ -1,15 +1,51 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<IncludeSymbols>False</IncludeSymbols>
 		<PackageLicenseFile>License.txt</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>logo.png</PackageIcon>
+		<Version>1.0.0</Version>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Serhat Aydus</Authors>
+		<Description>This project contains categorized constant values that can be used frequently for your applications.</Description>
+		<PackageProjectUrl>https://github.com/serhataydus/AssistantFramework/tree/main/Source/AssistantFramework.Constants</PackageProjectUrl>
+		<Copyright>Copyright 2022</Copyright>
+		<RepositoryUrl>https://github.com/serhataydus/AssistantFramework</RepositoryUrl>
+		<PackageTags>.net framework;easy framework;runtime constant;constants;const</PackageTags>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>
+			Added constant values for the following categories;
+			. AppSettingConstants
+			. CacheConstants
+			. ContentTypeConstants
+			. ExceptionConstants
+			. ExtensionConstants
+			. PunctuationCharConstants
+			. PunctuationStringConstants
+			. RegularExpressionConstants
+			. SortingConstants
+			. WebConstants
+		</PackageReleaseNotes>
+		<Version>1.0.0</Version>
+		<PackageOutputPath>packages\</PackageOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Update="License.txt">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
+		<None Update="License.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 </Project>
