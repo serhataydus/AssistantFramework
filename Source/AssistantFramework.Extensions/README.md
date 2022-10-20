@@ -26,76 +26,123 @@ The use of extension methods reduces code duplication even though it requires wr
 
 Added classes for the following extension methods;
 > . ActionFilterExtension
+>
 >   GetActionExecutingContextModel()
 >
 > . CollectionExtensions
+>
 >   RemoveAll()
 >
 > . ConfigurationExtension
+>
 >   GetConfigurationObject()
 >
 > . DateTimeExtensions
+>
 >   GetUtcNow()
+>
 >   GetNow()
 >
 > . DictionaryExtensions
+>
 >   Get()
 >
 > . EnumExtension
+>
 >   GetAttributeOfType()
 >
 > . FormFileExtensions
+>
 >   GetBytes()
 >
 > . HttpContextExtensions
+>
 >   GetCorrelationId()
+>
 >   GetApiVersion()
+>
 >   GetItem()
 >
 > . ModelStateExtension
+>
 >   GetErrors() 
 >
 > . ReflectionExtensions
+>
 >   GetDescription()
 >
 > . StopwatchExtensions
+>
 >   GetElapsedTime()
 >
 > . StringExtension
+>
 >   IsValidJson()
+>
 >   VerifyBodyContent
+>
 >   IsHtml()
+>
 >   ToCamelCase()
 >
 > . TypeConverterExtension
+>
 >   ToDateTime()
+>
 >   ToInt16()
+>
 >   ToInt32()
+>
 >   ToInt64()
+>
 >   ToBoolean()
+>
 >   ToFloat()
+>
 >   ToDecimal()
+>
 >   ToDouble()
+>
 >   IsNumber()
+>
 >   IsWholeNumber()
+>
 >   IsDecimalNumber()
+>
 >   IsBoolean()
 >
 > . TypeIsControlExtension
+>
 >   The following methods can be used for object,ICollection<T>,Guid,char,char[],string,string[],DateTime,bool,byte,sbyte,short,ushort,int,uint,long,ulong,float,double,decimal,JsonElement,e.g types
+>
 >   IsNullOrEmpty()
+>
 >   IsNotNullOrEmpty()
+>
 >   IsEqual()
+>
 >   IsNotEqual()
+>
 >   IsArrayEqual()
+>
 >   IsNotArrayEqual()
+>
 >   IsLessThan()
+>
 >   IsNotLessThan()
+>
 >   IsEqualOrLessThan()
+>
 >   IsNotEqualOrLessThan()
+>
 >   IsGreaterThan()
+>
 >   IsNotGreaterThan()
+>
 >   IsEqualOrGreaterThan()
+>
 >   IsNotEqualOrGreaterThan()
+>
 >   IsCorrectFormat()
+>
 >   IsNotCorrectFormat()
