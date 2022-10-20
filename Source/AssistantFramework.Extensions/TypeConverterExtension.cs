@@ -1,4 +1,4 @@
-﻿using System;
+﻿using AssistantFramework.Constants;
 using System.Text.RegularExpressions;
 
 namespace AssistantFramework.Extensions;
@@ -47,7 +47,7 @@ public static class TypeConverterExtension
 
     public static bool IsNumber(this string value)
     {
-        return Regex.IsMatch(value, @"^\d+$");
+        return Regex.IsMatch(value, RegularExpressionConstants.Number);
     }
 
     public static bool IsWholeNumber(this string value)

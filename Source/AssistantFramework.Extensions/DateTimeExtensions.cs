@@ -1,9 +1,14 @@
-﻿using System;
-
-namespace AssistantFramework.Extensions;
+﻿namespace AssistantFramework.Extensions;
 
 public static class DateTimeExtensions
 {
-    public static DateTime UtcNowNow => DateTime.UtcNow;
-    public static DateTime Now => DateTime.Now;
+    public static DateTime GetUtcNow()
+    {
+        return DateTime.UtcNow;
+    }
+
+    public static DateTime GetNow()
+    {
+        return DateTime.Now;
+    }
 }

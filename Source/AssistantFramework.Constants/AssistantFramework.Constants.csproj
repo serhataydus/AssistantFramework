@@ -9,8 +9,8 @@
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>logo.png</PackageIcon>
-		<Version>1.0.0</Version>
-		<PackageVersion>1.0.0</PackageVersion>
+		<Version>1.0.1</Version>
+		<PackageVersion>1.0.1</PackageVersion>
 		<Authors>Serhat Aydus</Authors>
 		<Description>This project contains categorized constant values that can be used frequently for your applications.</Description>
 		<PackageProjectUrl>https://github.com/serhataydus/AssistantFramework/tree/main/Source/AssistantFramework.Constants</PackageProjectUrl>
@@ -31,7 +31,6 @@
 			. SortingConstants
 			. WebConstants
 		</PackageReleaseNotes>
-		<Version>1.0.0</Version>
 		<PackageOutputPath>packages\</PackageOutputPath>
 	</PropertyGroup>
 	<ItemGroup>

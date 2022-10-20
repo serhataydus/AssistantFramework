@@ -1,7 +1,56 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<IncludeSymbols>False</IncludeSymbols>
+		<PackageLicenseFile>License.txt</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>logo.png</PackageIcon>
+		<Version>1.0.0</Version>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Serhat Aydus</Authors>
+		<Description>This project includes categorized extension methods to avoid repetitive code that can be used frequently for your applications.</Description>
+		<PackageProjectUrl>https://github.com/serhataydus/AssistantFramework/tree/main/Source/AssistantFramework.Extensions</PackageProjectUrl>
+		<Copyright>Copyright 2022</Copyright>
+		<RepositoryUrl>https://github.com/serhataydus/AssistantFramework</RepositoryUrl>
+		<PackageTags>.net framework;easy framework;runtime constant;enum;model;interface;option;dto</PackageTags>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>
+			Added classes for the following extension methods;
+			. ActionFilterExtension
+			. CollectionExtensions
+			. ConfigurationExtension
+			. DateTimeExtensions
+			. DictionaryExtensions
+			. EnumExtension
+			. FormFileExtensions
+			. HttpContextExtensions
+			. ModelStateExtension
+			. ReflectionExtensions
+			. StopwatchExtensions
+			. StringExtension
+			. TypeConverterExtension
+			. TypeIsControlExtension
+		</PackageReleaseNotes>
+		<PackageOutputPath>packages\</PackageOutputPath>
 	</PropertyGroup>
+	<ItemGroup>
+		<None Update="License.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
@@ -13,7 +62,7 @@
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\AssistantFramework.Constants\AssistantFramework.Constants.csproj" />
-	  <ProjectReference Include="..\AssistantFramework.Models\AssistantFramework.Models.csproj" />
-	</ItemGroup>	
+		<ProjectReference Include="..\AssistantFramework.Constants\AssistantFramework.Constants.csproj" />
+		<ProjectReference Include="..\AssistantFramework.Models\AssistantFramework.Models.csproj" />
+	</ItemGroup>
 </Project>
