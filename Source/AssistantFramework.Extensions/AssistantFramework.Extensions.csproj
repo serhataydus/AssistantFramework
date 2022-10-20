@@ -16,7 +16,7 @@
 		<PackageProjectUrl>https://github.com/serhataydus/AssistantFramework/tree/main/Source/AssistantFramework.Extensions</PackageProjectUrl>
 		<Copyright>Copyright 2022</Copyright>
 		<RepositoryUrl>https://github.com/serhataydus/AssistantFramework</RepositoryUrl>
-		<PackageTags>.net framework;easy framework;runtime constant;enum;model;interface;option;dto</PackageTags>
+		<PackageTags>.net framework;easy framework;runtime constant;Extensions;extension methods</PackageTags>
 		<RepositoryType>git</RepositoryType>
 		<PackageReleaseNotes>
 			Added classes for the following extension methods;
